@@ -15,35 +15,35 @@ https://dev.mysql.com/doc/refman/8.0/en/installing.html
 ### Install Redis
 https://redis.io/docs/getting-started/
 
-#Start
+# Backend-DJI-Drone-App
 
-##Vite
+## Vite
 npm run server
 
 IP in confic.ts eintragen
 IP in application.yml eintragen
 
-##EMQX
+## EMQX
 ./bin/emqx start
 
-##Redis
+## Redis
 wsl -u root
 sudo service redis-server start
 
-##MYSQL
+## MYSQL
 Workbench Startup/Shutdown
 Start Server
 
-#Exit
-##Vite
+# Exit
+## Vite
 strg + C
 
-##EMQX
+## EMQX
 ./bin/emqx stop
 
-##Redis
+## Redis
 exit
 
-##MYSQL
+## MYSQL
 Workbench Startup/Shutdown
 Stop Server
