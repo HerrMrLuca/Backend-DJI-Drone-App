@@ -36,7 +36,7 @@ jwt:
 
 mqtt:
   protocol: tcp
-  host: 10.29.18.198
+  host: 10.29.18.198  # TODO change ip to vite network
   port: 1883
   username: JavaServer
   password: 123456
