@@ -6,5 +6,8 @@ logs
 src/main/resources/application.yml
 target/classes/application.yml
 
-# 
+# target folder
+target
+
+# intelliJ
 .idea
